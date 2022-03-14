@@ -49,7 +49,7 @@ module.exports = function (string) {
         s = string.slice(0, 1)
     }
 
-    if (string in ms) {
+    if (n && string in ms) {
         D1 = D1[ms[string].set](D1[ms[string].get]() + Number(n))
 
         return Number(D1) - Number(D0)
