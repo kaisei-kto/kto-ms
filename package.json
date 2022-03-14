@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "tslib": "^2.3.1"
+  },
+  "types": "./index.d.ts",
+  "name": "kto-ms",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ms",
+    "milliseconds"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaisei-kto/kto-ms.git"
+  },
+  "author": "kaisei-kto",
+  "license": "ISC",
+  "description": ""
+}
